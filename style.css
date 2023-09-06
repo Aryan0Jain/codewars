@@ -69,7 +69,7 @@ a{
 }
 
 #home{
-    height: 420px;
+    height: 480px;
     width: 100%;
     text-align: center;
 }
@@ -108,19 +108,16 @@ a{
     color: rgb(162, 11, 11);
 }
 #blog{
-    height: 200vh;
-    margin-top: 100px;
+    height: 300vh;
     /* border: 2px solid whitesmoke; */
 }
 #blog .card{
     /* border:2px solid red ; */
     width: 84%;
-    margin: 30px 8%;
+    margin: 0px 8%;
     display: flex;
     border-radius: 15px;
-   
-    background-image: linear-gradient(90deg, rgb(76, 51, 50) 22%, rgb(68, 44, 44) 48%, rgb(68, 44, 44) 74%);;
-    /* flex-wrap: wrap; */
+    background-image: linear-gradient(90deg, rgb(76, 51, 50) 22%, rgb(68, 44, 44) 48%, rgb(68, 44, 44) 74%);
 }
 #blog .card .leftcard{
 /* background-color: red; */
