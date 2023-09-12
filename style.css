@@ -108,7 +108,8 @@ a{
     color: rgb(162, 11, 11);
 }
 #blog{
-    height: 300vh;
+    height: auto;
+    padding: 30px;
     /* border: 2px solid whitesmoke; */
 }
 #blog .card{
@@ -280,4 +281,110 @@ background: linear-gradient(90deg, rgba(165,104,81,1) 22%, rgba(175,58,60,1) 74%
     background-repeat: no-repeat;
     background-position:bottom;
     background-size: contain;
+}
+.box2{
+    width: 50%;
+    margin: 0 25%;
+}
+#blog .card3{
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin: 50px 8% 0px;
+    border-radius: 15px;
+    gap: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#blog .card3 .card-item{
+    border-radius: 15px;
+    background-color: #222327;
+    padding: 60px;
+}
+#blog .card3 .card-item .thumb{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #FB5555;
+    border-radius: 7px;
+}
+#blog .card3 .card-item .thumb p{
+    padding-top: 8px;
+}
+#blog .card3 .card-item h2{
+    margin: 20px auto;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+#blog .card3 .card-item p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: rgb(194, 191, 191);
+}
+#blog .latest{
+    display: flex;
+    width: 84%;
+    background-color: gray;
+    margin: 50px 8% 0px;
+    border-radius: 15px;
+    height: 495px;
+    position: relative;
+    transition: 200ms;
+}
+.latest:hover{
+    scale: 0.98;
+}
+#blog .latest .image{
+    height: 100%;
+    width: 45%;
+    border-radius: 15px 0px 0px 15px;
+    background-image: url(https://uploads-ssl.webflow.com/62e95dddfb380a0e61193e7d/63c96f663436595d79a62d43_codewars-og-image.png);
+    background-position: center;
+    background-size: 950px;
+    background-repeat: no-repeat;
+    /* border: 2px solid aqua; */
+}
+#blog .latest .content{
+    width: 55%;
+    padding: 50px;
+    background-color: #222327;
+}
+#blog .latest .content .title{
+    border-radius: 15px;
+    display: inline;
+    padding: 1px 15px;
+    color: black;
+    background-color: rgb(251,85,85);
+}
+.latest .content h1{
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.latest .content .text{
+    margin-top: 20px;
+    font-size: 20px;
+    /* letter-spacing: 1px; */
+    word-spacing: 2px;
+    color: rgb(194, 191, 191);
+}
+.latest .content img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.latest .info{
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    align-items: center;
+}
+.latest .info h4{
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.latest .info p{
+    color: rgb(194, 191, 191);
 }
