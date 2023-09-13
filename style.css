@@ -10,6 +10,7 @@ body{
 }
 main{
     background-color: rgb(49, 48, 48);
+    /* height: 5000vh; */
 }
 nav{
     display: flex;
@@ -108,7 +109,7 @@ a{
     color: rgb(162, 11, 11);
 }
 #blog{
-    height: auto;
+    /* height: auto; */
     padding: 30px;
     /* border: 2px solid whitesmoke; */
 }
@@ -370,14 +371,14 @@ background: linear-gradient(90deg, rgba(165,104,81,1) 22%, rgba(175,58,60,1) 74%
     word-spacing: 2px;
     color: rgb(194, 191, 191);
 }
-.latest .content img{
+.latest .content .info img{
     width: 60px;
     border-radius: 50%;
     margin-right: 15px;
 }
 .latest .info{
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     bottom: 50px;
     align-items: center;
 }
@@ -387,4 +388,37 @@ background: linear-gradient(90deg, rgba(165,104,81,1) 22%, rgba(175,58,60,1) 74%
 }
 .latest .info p{
     color: rgb(194, 191, 191);
+}
+.latestflex{
+    height: auto !important;
+    gap: 20px;
+    background-color: rgb(49, 48, 48) !important;
+    position: relative;
+}
+.latestflex .title{
+    margin-bottom: 30px;
+}
+
+.latestflex .lfimg{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+.latestflex .content{
+    padding: 0 !important;
+    border-radius: 10px;
+    /* background-color: black; */
+}
+.latestflex .content .lftext{
+    padding: 40px;
+}
+.latestflex .text{
+    margin-bottom: 100px;
+}
+.latestflex .info{
+    position: absolute;
+    bottom: 30px;
+}
+.latestflex h1{
+    font-size: 30px !important;
 }
