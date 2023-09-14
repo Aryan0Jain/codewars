@@ -4,6 +4,9 @@
     padding: 0px;
     font-family: 'PT Sans', sans-serif;
 }
+html{
+    background-color: rgb(49, 48, 48);
+}
 body{
     background-color: rgb(71, 71, 71);
     color: #fff;
@@ -13,6 +16,7 @@ main{
     /* height: 5000vh; */
 }
 nav{
+    z-index: 1000;
     display: flex;
     position: sticky;
     top: 0px;
@@ -421,4 +425,78 @@ background: linear-gradient(90deg, rgba(165,104,81,1) 22%, rgba(175,58,60,1) 74%
 }
 .latestflex h1{
     font-size: 30px !important;
+}
+
+
+/* ----------footer---------- */
+
+#footer{
+    border-top: 2px solid white;
+}
+.upfooter{
+    display: flex;
+    margin: 100px;
+}
+.upfooter .leftfoot{
+    width: 40%;
+}
+.upfooter .leftfoot .footlogo{
+    display: flex;
+    align-items:center;
+
+}
+.leftfoot .footlogo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.upfooter .leftfoot h3{
+    margin-top: 50px;
+    font-size: 14px;
+}
+.upfooter .leftfoot .footlink{
+    word-spacing: 20px;
+    margin-top: 20px;
+}
+.upfooter .leftfoot a{
+    border-radius: 15px;
+    display: inline;
+    padding: 0px 15px;
+    margin: 0px -5px;
+    line-height: 2;
+    color: black;
+    background-color: #222327;
+    color: white;
+}
+.upfooter .leftfoot a:hover{
+    background-color: rgb(251,85,85);
+}
+.upfooter .rightfoot{
+    margin: 20px 5%;
+}
+.rightfoot table{
+   border-spacing: 20px;
+}
+td,th{
+    text-align: left;
+}
+th{
+    padding-bottom: 50px;
+}
+.dlffoot{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    text-wrap: nowrap;
+}
+.drgfoot{
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+}
+.downfooter{
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin: 50px 8%;
 }
